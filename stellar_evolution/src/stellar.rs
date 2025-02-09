@@ -24,10 +24,10 @@ pub struct EvolutionSnapshot {
     pub central_temp: f64,
     pub luminosity: f64,
     pub effective_temp: f64,
-    pub radial_profile: Vec<Zone>,
+    pub radial_profile: Vec<ZoneData>,
 }
 
-pub struct Zone{
+pub struct ZoneData{
     pub radius: f64,
     pub temp: f64,
     pub density: f64,
